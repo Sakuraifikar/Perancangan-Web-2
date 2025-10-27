@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tambah Data Animasi</title>
+</head>
+<body>
+    <h2>Tambah Data Animasi</h2>
+    <form action="koneksi.php" method="POST">
+        <label>Judul:</label><br>
+        <input type="text" name="judul" required><br><br>
+
+        <label>Genre:</label><br>
+        <input type="text" name="genre" required><br><br>
+
+        <label>Tahun Rilis:</label><br>
+        <input type="number" name="tahun_rilis" required><br><br>
+
+        <label>Status:</label><br>
+        <select name="status" required>
+            <option value="upcoming">Upcoming</option>
+            <option value="ongoing">Ongoing</option>
+            <option value="completed">Completed</option>
+            <option value="hiatus">Hiatus</option>
+        </select><br><br>
+
+        <input type="submit" value="Simpan">
+    </form>
+</body>
+</html>
