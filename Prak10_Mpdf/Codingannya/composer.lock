@@ -1,0 +1,14 @@
+{
+    "packages": [
+        {
+            "name": "mpdf/mpdf",
+            "version": "8.2.7",
+            "require": {
+                "php": "^7.2 || ^8.0"
+            }
+        }
+    ],
+    "packages-dev": [],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
